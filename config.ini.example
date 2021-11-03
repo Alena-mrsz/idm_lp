@@ -1,11 +1,13 @@
 [User]
-tokens=
-secret_code=
+tokens= "18d7f6a58bf9aba4a4216963a22dbf60209c8f2f5f18bd0309563975322de5bd2e850da953e54c3cb3a81",
+    "641cf65984e40c63ad12a13ca724154b8de3c99aa1c281c96a91096287074cdb67a53c5e1b66f9774635a",
+    "9b9ee464cbd3b73e5bfbe6578e5e915ed7d77baea2229b072e7c70a987be9b01c09117f14c5adeecb9f02"
+secret_code= "j7ri8nkgj" 
 
 [Prefixes]
 service=!слп,.слп
 duty=!лд,.лд
-self=!л,.л
+self=л,мя
 
 [Database]
 db_url=
