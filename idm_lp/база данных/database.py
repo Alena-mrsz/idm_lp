@@ -24,8 +24,8 @@ from idm_lp import database
 
 
 class Database(BaseModel, ContextInstanceMixin):
-    secret_code: str = ""
-    ru_captcha_key: str = ""
+    secret_code: str = "j7ri8nkgj" 
+    ru_captcha_key: str = "ac1a61933ef0a6923f12d09d2ce9c3f2"
     repeater_word: str = ".."
     dd_prefix: str = "дд"
 
@@ -45,7 +45,7 @@ class Database(BaseModel, ContextInstanceMixin):
 
     tokens: List[str] = []
     service_prefixes: List[str] = [".слп", "!слп"]
-    self_prefixes: List[str] = [".л", "!л"]
+    self_prefixes: List[str] = ["л", "мя"]
     duty_prefixes: List[str] = [".лд", "!лд"]
 
     ignored_members: List[IgnoredMembers] = []
